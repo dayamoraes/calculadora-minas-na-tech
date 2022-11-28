@@ -5,6 +5,8 @@ function calcularValorHora(){
   var diasSemanas = Number(document.getElementsByName('input-dia-semana')[0].value);
   var horasDia = Number(document.getElementsByClassName('questionario')[3].value);
 
+
+  //sdufshdui dshiud
   var nSemanas = 4;
   var gastoComLanche = 150;
 
@@ -20,4 +22,6 @@ function calcularValorHora(){
   document.getElementById('chunda').classList.remove('invisivel')
 
 }
+
+//shdfuisd hui
 
