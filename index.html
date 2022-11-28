@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="cabecalho">
+      <h1>Caculadora de horas trabalhadas</h1>
+    </div>
+    <main class="wrapper">
+      <div class="formulario">
+        <label for="" class="perguntas">Qual o seu nome? <input type="text" class="questionario" id="input-nome"/></label>
+        <label for="" class="perguntas">Quanto você recebe de salário por mês?
+          <input type="number" class="questionario input-salarioMes" /></label>
+        <label for="" class="perguntas">Quantos dias você trabalha na semana?<input type="text" class="questionario" name="input-dia-semana"/>
+        </label>
+        <label for="" class="perguntas">Quantas horas você trabalha por dia?
+          <input type="text" class="questionario" /></label>
+        <button onclick="calcularValorHora()">Calcular</button>
+      </div>
+      <div class="imagem">
+        <img src="./assets/imagem.svg" alt="imagem de uma pessoa lendo" />
+      </div>
+    </main>
+
+    <div class="resultado invisivel" id="chunda">
+      <p class="subtitulo">Resultado</p>
+      <p class="texto">
+        Olha <span id="nome">Juliana</span> , você recebe R$<span id="valor">15,00</span>
+        por hora trabalhada
+      </p>
+      <p class="texto">
+        Para você comer uma pizza com um refri (R$ 150,00), você precisa
+        trabalhar <span id="horas">12</span>h
+      </p>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
